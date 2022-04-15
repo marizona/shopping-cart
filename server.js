@@ -16,5 +16,5 @@ const port= 3000;
 app.use("/api",products)
 
 app.listen(port, ()=>{
-    console.log(`shopping cart app listening att http://locahost:${port}`)
+    console.log(`shopping cart app listening att http://localhost:${port}`)
 })
