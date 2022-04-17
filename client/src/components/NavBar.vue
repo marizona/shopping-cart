@@ -4,21 +4,7 @@
   >
     <div class="flex items-center flex-shrink-0 text-gray mr-6">
       <router-link :to="{ name: 'Home' }" class="flex items-center">
-        <svg
-          class="w-6 h-6"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z"
-          ></path>
-        </svg>
-        <h5 class="fill-current mr-2 text-xl font-semibold text-blue-500">TAKE !T</h5>
+      <img class='fill-current mr-2 w-12 h-12 ' src='../assets/logoo.png' alt='logo' />
       </router-link>
     </div>
     <div class="flex items-center w-auto">
@@ -32,6 +18,7 @@
             py-2
             leading-none
             rounded
+            shadow
             text-gray
             border-white
             hover:border-transparent hover:text-teal-500 hover:bg-white

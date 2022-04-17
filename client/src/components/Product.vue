@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full max-w-sm mx-auto rounded-2xl shadow-md overflow-hidden">
+  <div class="w-full max-w-sm mx-auto rounded-2xl shadow-md overflow-hidden opacity-90 transform transition duration-500 hover:scale-110 hover:opacity-100">
     <div
       :style="{ 'background-image': `url(${product.img_url})` }"
       class="flex items-end justify-end h-56 w-full bg-cover"
@@ -16,7 +16,7 @@
         "
         :class="
           isAdded
-            ? 'bg-red-600 hover:bg-red-500 focuus:bg-red-500 '
+            ? 'bg-red-600 hover:bg-red-500 focus:bg-red-500 '
             : 'bg-blue-500 hover:bg-blue-500 focus:bg-blu-500 '
         "
         @click="addToCart(product)"

@@ -4,7 +4,7 @@
     <div
       class="
         grid
-        gap-6
+        gap-12
         grid-cols-1
         sm:grid-cols-2
         lg:grid-cols-3
@@ -17,6 +17,7 @@
         v-for="(product, index) in products"
         :key="index"
       />
+      <Pagination/>
     </div>
   </div>
 </template>
@@ -25,12 +26,14 @@
 // @ is an alias to /src
 
 import Product from "@/components/Product";
+import Pagination from '@/components/Pagination';
 import { ref } from "vue";
 import axios from "axios";
 export default {
   name: "Home",
   components: {
     Product,
+    Pagination
   },
 
   setup() {

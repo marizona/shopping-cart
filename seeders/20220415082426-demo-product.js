@@ -3,7 +3,7 @@
 const { faker } = require("@faker-js/faker");
 const products = [...Array(20)].map((product) => ({
   title: faker.commerce.productName(),
-  img_url: `${faker.image.business()}?random=${faker.random.number()}`,
+  img_url: `${faker.image.food()}?random=${faker.random.number()}`,
   price: faker.commerce.price(),
   qty: 1,
   createdAt: new Date(),
