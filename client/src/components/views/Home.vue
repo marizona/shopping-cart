@@ -19,6 +19,7 @@
       />
       <Pagination/>
     </div>
+    
   </div>
 </template>
 
